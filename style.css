@@ -2,7 +2,8 @@
 .product {
   display: flex;
   flex-direction: column;
-  
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   box-sizing: border-box;
 }
 
@@ -15,4 +16,13 @@ body {
 .logo > img {
   width: 50px;
 }
+
+.social{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+
 }
