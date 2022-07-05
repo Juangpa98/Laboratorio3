@@ -1,5 +1,8 @@
-@media (max-width: 480px) 
-.logo {
+@media (max-width: 480px) {
+.product {
+  display: flex;
+  flex-direction: column;
+  
   box-sizing: border-box;
 }
 
@@ -12,4 +15,4 @@ body {
 .logo > img {
   width: 50px;
 }
-
+}
