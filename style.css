@@ -2,10 +2,10 @@
 
 
 .contenedor{
+  box-sizing: border-box;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
-
 }
 
 body {
