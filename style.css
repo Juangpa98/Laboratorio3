@@ -1,6 +1,5 @@
 @media (min-width: 1025px){
 .product{
-  box-sizing: border-box;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-evenly;
