@@ -7,6 +7,13 @@
   justify-content: space-evenly;
 
 }
+
+.Header{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
 i{
   align-items: center;
 }
@@ -20,5 +27,10 @@ body {
   width: 50px;
 }
 
+.social{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
 
 }
