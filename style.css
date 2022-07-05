@@ -1,9 +1,14 @@
-@media (max-width: 480px) {
-* {
-  
+@media (min-width: 1025px){
+.product{
   box-sizing: border-box;
-}
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
 
+}
+i{
+  align-items: center;
+}
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -13,5 +18,4 @@ body {
 .logo > img {
   width: 50px;
 }
-
 }
