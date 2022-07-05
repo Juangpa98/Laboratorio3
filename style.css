@@ -18,4 +18,10 @@ body {
 .logo > img {
   width: 50px;
 }
+
+.social{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
 }
